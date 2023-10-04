@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgba(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 70);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    color: rgb(153, 153, 230);
+    font-size: 1.04rem;
+  }
+
+  .left {
+    font-size: 1.5rem;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+  }
+
+  .firstSection > div {
+    width: 30%;
+  }
+
+  .leftsection {
+    font-size: 2.6rem;
+  }
+  .rightsection img {
+    width: 90%;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    background: #1e2167;
+    color: rgb(170, 106, 249);
+    border: 2px solid rgb(170, 106, 249);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  }
+
+  .btn:hover {
+    background: rgb(170, 106, 249);
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .purple {
+    color: rgb(170, 106, 249);
+  }
+
+  #element {
+    color: rgb(170, 106, 249);
+  }
+
+  .aboutSection {
+    background-color: rgba(0, 0, 33, 0.8);
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .aboutContent {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .aboutContent h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(170, 106, 249);
+  }
+
+  .aboutContent p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .sectionDivider {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: rgb(170, 106, 249);
+    margin: 20px 0;
+  }
+
+  .skillsContent {
+    text-align: center;
+  }
+
+  .skillsContent h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(170, 106, 249);
+  }
+
+  .skillsList {
+    list-style: none;
+    padding: 0;
+  }
+
+  .skillsList li {
+    font-size: 1.2rem;
+    color: rgb(170, 106, 249);
+    margin: 10px 0;
+  }
+
+/* Add these CSS styles to your existing styles in the <style> block */
+
+.contactSection {
+    background-color: rgba(0, 0, 33, 0.8);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.contactContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contactContent h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(170, 106, 249);
+}
+
+.contactContent p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contactContent form {
+    text-align: left;
+}
+
+.contactContent label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(170, 106, 249);
+}
+
+.contactContent input[type="text"],
+.contactContent input[type="email"],
+.contactContent textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(170, 106, 249);
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contactContent input[type="text"],
+.contactContent input[type="email"] {
+    height: 40px;
+}
+
+.contactContent textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contactContent button[type="submit"] {
+    padding: 12px 24px;
+    background: #1e2167;
+    color: rgb(170, 106, 249);
+    border: 2px solid rgb(170, 106, 249);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.contactContent button[type="submit"]:hover {
+    background: rgb(170, 106, 249);
+    color: white;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: rgb(18, 18, 70);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footerContent p {
+    font-size: 14px;
+}
+
+.footerContent ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footerContent ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footerContent ul li:last-child {
+    margin-right: 0;
+}
+
+.footerContent ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footerContent ul li a:hover {
+    color: rgb(170, 106, 249);
+}
